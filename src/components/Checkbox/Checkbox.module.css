@@ -1,0 +1,18 @@
+.checkbox {
+	cursor: pointer;
+	transition: 0.4s;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+svg {
+	display: block;
+}
+
+.loading svg {
+	fill: var(--color-gray-2);
+}
+
+.error svg {
+	fill: red;
+}

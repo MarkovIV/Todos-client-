@@ -1,0 +1,57 @@
+{
+  "name": "todoswithdbclient",
+  "version": "1.0.0",
+  "description": "Todos application with cloud database (client side)",
+  "author": "Ivan Markov <markov.iv.vl@gmail.com>",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "axios": "^1.1.3",
+    "classnames": "^2.3.2",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "nodemon index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.20"
+  }
+}

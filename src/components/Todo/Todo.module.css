@@ -1,0 +1,12 @@
+.todo {
+	display: grid;
+	grid-template-columns: 34px auto;
+	grid-template-areas:
+		"checkbox input";
+}
+
+.checkbox {
+	align-self: center;
+}
+
+

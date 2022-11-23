@@ -1,0 +1,16 @@
+.input {
+	display: block;
+	padding: 5px 5px;
+	width: 99%;
+
+	color: var(--color-black);
+	border: none;
+	outline: none;
+	background-color: inherit;
+	border-bottom: 1px solid var(--color-gray-2);
+	border-radius: 5px;
+}
+
+.completed {
+	text-decoration: line-through;
+}

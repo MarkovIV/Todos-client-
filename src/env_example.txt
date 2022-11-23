@@ -1,0 +1,2 @@
+// Adress of Server
+REACT_APP_HOST_URL = 'http://localhost:3000'
